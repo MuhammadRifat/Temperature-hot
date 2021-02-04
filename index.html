@@ -40,7 +40,7 @@
         // For displaying location, temperature and weather-condition.
         function displayTemp(){
             const location = document.getElementById("input-location").value;
-            const url = "http://api.openweathermap.org/data/2.5/weather?q="+ location +"&appid=be473a39a644610532980952b8a23acc";
+            const url = "http://api.openweathermap.org/data/2.5/weather?q="+ location +"&appid=4f4e4d05a23edcadc12f17f4ae5346de";
             fetch(url)
             .then(response => response.json())
             .then(data => {
